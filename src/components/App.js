@@ -13,6 +13,7 @@ function App() {
       <Navbar setIsLoggedIn={setIsLoggedIn} />
       <Switch>
         <Route exact path="/about">
+        
           <About />
         </Route>
         <Route exact path="/login">
